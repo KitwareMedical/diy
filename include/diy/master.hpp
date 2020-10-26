@@ -370,7 +370,7 @@ Master(mpi::communicator    comm,
        LoadBlock            load_,
        QueuePolicy*         q_policy):
   blocks_(create_, destroy_, storage, save, load_),
-  queue_policy_( (q_policy==nullptr) ? new QueueSizePolicy(4096), q_policy),
+  queue_policy_( (q_policy==nullptr) ? new QueueSizePolicy(4096): q_policy),
   limit_(limit__),
 #if !defined(VTKMDIY_NO_THREADS)
   threads_(threads__ == -1 ? static_cast<int>(thread::hardware_concurrency()) : threads__),

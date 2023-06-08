@@ -5,6 +5,8 @@ This project is **NOT** the official diy repository.
 
 It is a fork of diy sources hosted at https://github.com/diatomic/diy.
 
+The official upstream repository is https://gitlab.kitware.com/diatomic/diy.
+
 It is used as staging area to maintain topics specific to Kitware projects like [Slicer Custom Application](https://github.com/KitwareMedical/SlicerCustomAppTemplate#readme) or Extension that will eventually be contributed back to the official repository.
 
 
